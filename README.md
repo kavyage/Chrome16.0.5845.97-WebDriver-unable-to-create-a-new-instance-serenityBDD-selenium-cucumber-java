@@ -1,2 +1,9 @@
-# Chrome16.0.5845.97-WebDriver-unable-to-create-a-new-instance-serenityBDD-selenium-cucumber-java
-Chrome - Version 116.0.5845.97 - WebDriver was unable to create a new instance of type class org.openqa.selenium.chrome.ChromeDriver
+https://github.com/serenity-bdd/serenity-core/issues/3227#issuecomment-1785247068
+
+below works for me,
+serenity.conf -> set binary path to chrome.exe
+serenity.properties -> set driver path to chromedriver.exe and autodownload to false
+
+references:
+https://serenity-bdd.github.io/docs/guide/driver_config#specifying-the-chromedriver-binary
+https://googlechromelabs.github.io/chrome-for-testing/#stable
